@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  height: 100vh;
+  background-color: #A37800;
+  color: lightgray;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+h1 {
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.container {
+display: flex;
+justify-content: center;
+flex-direction: column;  
+}
+
+
+.book-name {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+
+.nameofbook{
+  border-radius: 5px;
+  margin-left: 5px;
+  border: 1 px solid;
+  border:none;
+  width: 150px;
+  height: 25px;
+  background-color: #0024A3;
+  color: lightgray;
+}
+
+.author-name {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.nameofauthor{
+  border-radius: 5px;
+  margin-left: 5px;
+  border: none;
+  margin-left: 5px;
+  width: 150px;
+  height: 25px;
+  background-color: #0024A3;
+  color: lightgray;
+}
+
+.container-btn {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.btn {
+  width: 60px;
+  border: none;
+  border-radius: 5px;
+  background-color: #F0B000;
+}
